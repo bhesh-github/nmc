@@ -1,0 +1,29 @@
+.contents-column {
+  display: flex;
+  flex-direction: column;
+  .section-heading {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: $primaryDarkBlue;
+    margin-top: 0.7em;
+    .highlight {
+      color: $primarySkyBlue;
+    }
+  }
+  .floating-btn-row {
+    margin: 5px 0;
+    display: flex;
+    justify-content: flex-end;
+    width: max-content;
+    align-self: flex-end;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 99;
+    top: 3em;
+    right: 0;
+  }
+
+}
